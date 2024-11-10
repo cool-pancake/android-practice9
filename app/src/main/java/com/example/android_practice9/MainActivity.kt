@@ -1,7 +1,9 @@
 package com.example.android_practice9
 
+import android.content.Intent
 import android.icu.text.DecimalFormat
 import android.os.Bundle
+import android.os.Looper
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
