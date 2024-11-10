@@ -2,6 +2,7 @@ package com.example.android_practice9
 
 import android.icu.text.DecimalFormat
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -24,7 +25,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-
         binding.buttonDel.setOnClickListener {
             binding.input.text = " "
             binding.output.text = " "
@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.button0.setOnClickListener {
+            Log.d("TestTag", "asdsassss")
             addToInputText("0")
         }
 
